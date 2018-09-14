@@ -1,0 +1,145 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+
+<head>
+	<title>HTML Learning</title>
+</head>
+
+<body>
+	<a href="blog.html">Go to blog</a>
+	<!-- Headings -->
+	<h1>One</h1>
+	<h2>Two</h2>
+	<h3>Three</h3>
+	<h4>Four</h4>
+	<h5>Five</h5>
+	<h6>Six</h6>
+	<!-- Paragraphs -->
+	<p>
+		Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos doloribus ad recusandae quisquam, quam eveniet delectus
+		nihil aliquam! Maiores, quasi deleniti? Quasi, ea dolorem vero cum officiis provident saepe facilis.
+	</p>
+	<p>
+		<!-- <strong> makes text bold, <em> makes it italic (by default) you can customize these behaviours with CSS<-->
+		Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos doloribus ad recusandae quisquam, quam eveniet delectus
+		nihil aliquam! Maiores, quasi deleniti? Quasi, ea dolorem vero cum officiis provident saepe facilis.
+	</p>
+	<p>
+		<!-- <a href=""> makes a link, you can either link to local site (which is a different page of our website, or external site / usually you want to open external sites with another attribute added: target="_blank" - that will open the site on a new tab-->
+		Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis, esse!
+	</p>
+	<!-- Lists -->
+	<ul>
+		<li>One</li>
+		<li>Two</li>
+		<li>Three</li>
+		<li>Four</li>
+	</ul>
+
+	<ol>
+		<li>One</li>
+		<li>Two</li>
+		<li>Three</li>
+		<li>Four</li>
+	</ol>
+	<!-- Tables -->
+	<table>
+		<thead>
+			<tr>
+				<th>Name</th>
+				<th>Age</th>
+				<th>Colour</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Degrua</td>
+				<td>126</td>
+				<td>green</td>
+			</tr>
+			<tr>
+				<td>Lokuvfea</td>
+				<td>635</td>
+				<td>yellow</td>
+			</tr>
+		</tbody>
+	</table>
+	<br>
+	<hr>
+	<br>
+	<!-- Forms - action addresses the file on backend that deals with the form; method is the way how it will address it (POST-secure, GET-unsecure(used in searches)) -->
+	<form action="process.php" method="POST">
+		<div>
+			<label>First Name</label>
+			<input type="text" name="firstName" placeholder="Enter first name">
+		</div>
+		<br>
+		<div>
+			<label>Last Name</label>
+			<input type="text" name="lastName" placeholder="Enter last name">
+		</div>
+		<br>
+		<div>
+			<label>Email</label>
+			<input type="email" name="email" placeholder="example@domain.com">
+		</div>
+		<br>
+		<div>
+			<label>Message</label>
+			<textarea name="message"></textarea>
+		</div>
+		<br>
+		<div>
+			<label>Type</label>
+			<select name="type">
+				<option value="robot">Robot</option>
+				<option value="bio">Bio</option>
+				<option value="symbiot">Symbiot</option>
+			</select>
+		</div>
+		<br>
+		<div>
+			<label>Age:</label>
+			<input type="number" name="age" placeholder="Enter your age">
+		</div>
+		<br>
+		<div>
+			<label>Birthday:</label>
+			<input type="date" name="birthday">
+		</div>
+		<br>
+		<div>
+			<input type="submit" name="submit" value="Submit">
+		</div>
+	</form>
+	<!-- Buttons -->
+	<button>Click me!</button>
+	<br>
+	<!-- Images src needs to point to the actual image, alt will display text when image cannot be loaded, you can make an image clickable when you wrap it in <a> and point to it, you can also change <height> and <width> -->
+	<img src="sample.jpg" alt="Sample image">
+	<!-- Quotations -->
+	<blockquote cite="source.com">
+		Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla nesciunt libero quos quo, maxime repellendus, sit
+		cumque deleniti blanditiis harum quidem iusto, corporis alias exercitationem? Maxime repudiandae rerum qui ipsum?
+	</blockquote>
+	<br>
+	<p>
+		The <abbr title="World Wide Web">WWW</abbr> is awesome!
+	</p>
+	<p>
+		<cite>HTML</cite> crash course by Traversy Media
+	</p>
+</body>
+
+<!-- HTML semantic tags
+<header></header>
+<nav></nav>
+<main></main>
+<section></section>
+<article></article>
+<aside></aside>
+<section></section>
+<details></details>
+<footer></footer> -->
+
+</html>
