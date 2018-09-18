@@ -26,7 +26,7 @@
   * Webpack & Babel (module loader & JS compiler)
 ## Server Side Tech
  * Node.js
-##Database
+## Database
  * MongoDB
 ## Server Side Framework
  * Express (JavaScript)
