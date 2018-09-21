@@ -1,7 +1,7 @@
 # THINGS TO LEARN
 
 ## HTML / CSS
-  * Flex & Grid for CSS
+  * Grid for CSS
 ## JavaScript
   * learn language
   * DOM manipulation
@@ -19,20 +19,27 @@
   * Angular
 ## Side Tech
   * Git
-  * command line
+  * command line + whole Linux
   * APIs/REST
   * HTTP/SSL (HTTP requests, HTTPS)
   * CSS pre-processor (ideally Sass)
   * Webpack & Babel (module loader & JS compiler)
 ## Server Side Tech
  * Node.js
+ * Python
+ * PHP
 ## Database
  * MongoDB
+ * MySQL
 ## Server Side Framework
- * Express (JavaScript)
+ * Express, Hapi.js (JavaScript)
+ * Flask, Django (Python)
+ * Laravel (PHP)
 ## Dev Ops & Deployment of Apps
  * dedicated server / VPS or cloud hosting - Digital Ocean, Amazon Web Services
  * SSH & command line mastery
  * server maintenance & software updates
 ## Mobile Apps
  * React Native
+ * Java
+ * Kotlin
