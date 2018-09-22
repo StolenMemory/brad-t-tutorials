@@ -1,11 +1,14 @@
 # THINGS TO LEARN
 
 ## HTML / CSS
-  * Grid for CSS
+  * master both
+  * Flex/Grid for CSS
+  * responsive layouts (mobile > tablet > desktop)
 ## JavaScript
   * learn language
   * DOM manipulation
-  * Ajax / JSON
+  * Ajax / Fetch API / JSON
+  * ES2015 (arrow functions, promises, template strings)
 ## Deploying a website
   * shared hosting
   * basics of cPanel (creating email accounts, FTP accounts)
